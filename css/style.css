@@ -1,0 +1,170 @@
+.font-face{
+    font-family: "gilroylight";
+    src: url(../font/Gilroy-Light.otf);
+}
+
+.font-face{
+    font-family: "gilroybold";
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+.container{
+    width: 1200px;
+}
+
+.profile-name{
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1C2022;
+}
+
+
+
+.profile-id{
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #697882;
+}
+
+
+
+.tweet{
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #1C2022;
+}
+
+
+.tweet-link{
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #1DA1F2;    
+}
+
+
+
+.date{
+    font-family: Helvetica;
+    font-size: 1.3em;
+    color: #697882;
+    font-weight: 400;
+}
+
+.stats{
+    font-family: Helvetica;
+    font-size: 1.2em;
+    color: #697882;
+    font-weight: 700;
+}
+
+.icon{
+    font-family: Helvetica;
+    font-size: 1.2em;
+    color: #697882;
+}
+
+#board{
+    border: 2.19382px solid #E1E8ED;
+    border-radius: 9px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+.banner-name{
+    font-size: 5.2em;
+    font-weight: 900;
+    line-height: 1.0;
+}
+
+body{
+    background-image: url("../img/bg.png");
+    background-color: #000000;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+}
+
+.img{
+    position: relative;
+    bottom: 190px;
+}
+.banner-name{
+    color: #ffffff;
+}
+
+.prelative{
+    position: relative;
+}
+.hand{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.text-position{
+    padding-top: 100px;
+}
+
+.customheight{
+    height: 100%;
+}
+
+.twitter{
+    width: 30px;
+    float: right;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .banner-name{
+       font-size: 3.0em;
+       text-align: center;
+   }
+   .text-position{
+        padding-top: 10px;
+        height: auto;
+        margin-bottom: 30px;
+        
+    }
+    .profile-name{
+        font-size: 0.7em;
+    }
+    .profile-id{
+        font-size: 0.9em;
+    }
+    .tweet,.tweet-link, .icon, .fa{
+        font-size: 0.8em;
+    }
+    .date p{
+        font-size: 0.7em;
+    }
+    .customheight{
+        height: 0px !important;
+    }
+   .stats{
+    font-size: 0.8em;
+   }
+   .twitter{
+        width: 20px;
+    }
+    .hand img{
+        width: 80%;
+        float: right;
+        margin-right: 26px;
+    }
+    .hand{
+        right: 0;
+        left: 0;
+
+    }
+    .profile-img{
+        width: 50px !important;
+    }
+   
+  }
