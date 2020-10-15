@@ -117,6 +117,9 @@ body{
     width: 30px;
     float: right;
 }
+.pad-5{
+    padding: 3rem;
+}
 
 
 
@@ -166,5 +169,161 @@ body{
     .profile-img{
         width: 50px !important;
     }
+
+    .date{
+        font-size: 1.2em;
+    }
    
   }
+
+
+@media only screen and (min-width: 1080px) and (min-height: 1920px) {
+   .customheight{
+        display: inline !important;
+   }
+   .col-md-5{
+        max-width: 1000px !important;
+   }
+   .col-md-6{
+        max-width: 1000px !important;
+   }
+  #loggo{
+      display: none;
+  }
+  .hand{
+      left: 50px;
+
+  }
+  .hand img{
+      width: 1000px;
+  }
+  .lg-screen{
+      text-align: center;
+  }
+  .offset-md-1{
+    margin-left: 0px !important;
+  }
+ #board{
+    margin-top: 200px;
+ }
+  .banner-name{
+    font-size: 10em;
+  }
+  .profile-img{
+      width: 150px;
+  }
+  .profile-name, .profile-id, .tweet, .tweet-link, .date{
+      font-size: 40px;
+  }
+  .stats{
+    font-size: 2.5em;
+   }
+   .twitter{
+    width: 60px;
+   }
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 960px) {
+    .banner-name{
+        font-size: 9.2em;
+    }
+    .profile-name, .profile-id, .tweet, .tweet-link, .date{
+        font-size: 50px;
+    }
+    .stats{
+      font-size: 2.6em;
+     }
+}
+
+ @media screen and (height: 450px) {
+    .hand img{
+        width: 410px;
+    }
+    .text-position{
+        padding-top: 10px;
+        height: auto;
+        
+    }
+    .banner-name{
+        font-size: 3.9em;
+
+    }
+    .profile-name, .profile-id, .tweet, .tweet-link, .date{
+        font-size: 32px;
+    }
+    .stats{
+        font-size: 1.3em;
+       }
+}
+
+@media screen and (height: 270px) {
+    .hand img{
+        width: 210px;
+    }
+    .text-position{
+        padding-top: 10px;
+        height: auto;
+        
+    }
+    .banner-name{
+        font-size: 3.4em;
+
+    }
+    .profile-name, .profile-id, .tweet, .tweet-link, .date{
+        font-size: 16px;
+    }
+    .stats{
+        font-size: 1.3em;
+    }
+    .pad-5{
+        padding: 10px !important;
+    }
+}
+
+
+ @media screen and (height: 300px) {
+    .hand img{
+        width: 100px;
+    }
+    .banner-name{
+        font-size: 2.5em;
+
+    }
+    .profile-name, .profile-id, .tweet, .tweet-link, .date{
+        font-size: 8px;
+    }
+    .stats{
+        font-size: 8px;
+    }
+    .profile-img{
+      width: 40px !important;
+
+    }
+    .pad-5{
+        padding: 10px !important;
+    }
+   
+} 
+
+@media screen and (height: 240px) {
+    .hand img{
+        width: 100px;
+    }
+    .banner-name{
+        font-size: 2.8em;
+
+    }
+    .profile-name, .profile-id, .tweet, .tweet-link, .date{
+        font-size: 8px;
+    }
+    .stats{
+        font-size: 8px;
+    }
+    .profile-img{
+      width: 40px !important;
+
+    }
+    .pad-5{
+        padding: 10px !important;
+    }
+} 
