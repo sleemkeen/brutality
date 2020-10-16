@@ -283,21 +283,32 @@ body{
 
  @media screen and (height: 300px) {
     .hand img{
-        width: 100px;
+        width: 120px;
+        float: right;
+        margin-right: 126px;
     }
     .banner-name{
-        font-size: 2.5em;
+        font-size: 1.5em;
 
     }
+    .text-position{
+        margin-left: 60px;
+    }
+   .card-body{
+       padding: 10px !important;
+   }
     .profile-name, .profile-id, .tweet, .tweet-link, .date{
-        font-size: 8px;
+        font-size: 12px;
     }
     .stats{
-        font-size: 8px;
+        font-size: 12px;
     }
     .profile-img{
       width: 40px !important;
 
+    }
+    .lg-screen{
+        margin-bottom: 10px;
     }
     .pad-5{
         padding: 10px !important;
